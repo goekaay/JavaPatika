@@ -17,21 +17,21 @@ public class SinifOrtalama {
 		System.out.println("Kimya Notunuzu Girin: ");
 		kim = s.nextInt();
 		
-		System.out.println("Türkçe Notunuzu Girin: ");
+		System.out.println("TÃ¼rkÃ§e Notunuzu Girin: ");
 		tur = s.nextInt();
 		
 		System.out.println("Tarih Notunuzu Girin: ");
 		tar = s.nextInt();
 		
-		System.out.println("Müzik Notunuzu Girin: ");
+		System.out.println("MÃ¼zik Notunuzu Girin: ");
 		muz = s.nextInt();
 		
 		int ort = (mat+fiz+kim+tur+tar+muz)/6;
 		
-		System.out.println("Derslerin ortalamasý = "+ort);
+		System.out.println("Derslerin ortalamasÃ½ = "+ort);
 		
 		boolean sonuc = ort<=60;
-		System.out.println(sonuc?"Sýnýfta kaldý":"Sýnýfý geçti");
+		System.out.println(sonuc?"SÃ½nÃ½fta kaldÃ½":"SÃ½nÃ½fÃ½ geÃ§ti");
 		
 		
 
