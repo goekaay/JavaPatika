@@ -9,18 +9,18 @@ public class UcgenAlan {
 		
 		double kenar1, kenar2, kenar3, cevre, alan, u;
 		
-		System.out.println("1. kenarın uzunluğunu giriniz:");
+		System.out.println("1. kenarÄ±n uzunluÄŸunu giriniz:");
 		kenar1 = s.nextDouble();
 		
-		System.out.println("2. kenarın uzunluğunu giriniz:");
+		System.out.println("2. kenarÄ±n uzunluÄŸunu giriniz:");
 		kenar2 = s.nextDouble();
 		
-		System.out.println("3. kenarın uzunluğunu giriniz:");
+		System.out.println("3. kenarÄ±n uzunluÄŸunu giriniz:");
 		kenar3 = s.nextDouble();
 		
 		u = (kenar1 + kenar2 + kenar3) /2;
 		cevre = 2*u;
-		System.out.println("Çevre uzunluğu: "+ cevre);
+		System.out.println("Ã‡evre uzunluÄŸu: "+ cevre);
 		
 		alan = Math.sqrt(u*(u-kenar1)*(u-kenar2)*(u-kenar3));
 		System.out.println("Alan:"+alan);
