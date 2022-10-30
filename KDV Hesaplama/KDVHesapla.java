@@ -8,7 +8,7 @@ public class KDVHesapla {
 		
 		Scanner s = new Scanner(System.in);
 		
-		System.out.println("Ücreti giriniz: ");
+		System.out.println("Ãœcreti giriniz: ");
 		tutar = s.nextFloat();
 		
 		kdvTutar = tutar * kdvOran;
@@ -16,7 +16,7 @@ public class KDVHesapla {
 		
 		System.out.println("KDV'siz Fiyat : "+ tutar);
 		System.out.println("KDV'li Fiyat :"+ kdvliTutar);
-		System.out.println("KDV Tutarý :"+ kdvTutar);
+		System.out.println("KDV TutarÃ½ :"+ kdvTutar);
 		
 
 	}
