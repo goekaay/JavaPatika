@@ -11,7 +11,7 @@ public class DaireCevreAlan {
 		
 		System.out.println("Dairenin yaricapini giriniz: ");
 		yariCap = s.nextInt();
-		System.out.println("Merkez açýsýnýn derecesini giriniz:");
+		System.out.println("Merkez aÃ§Ä±sÄ±nÄ±n derecesini giriniz:");
 		aci = s.nextInt();
 		
 		alan = pi * yariCap * yariCap;
@@ -19,8 +19,8 @@ public class DaireCevreAlan {
 		sonuc = (pi*(yariCap * yariCap) * aci)/360;
 		
 		
-		System.out.println("Dairenin alaný="+ alan +"\nDairenin çevresi="+cevre);
-		System.out.println("Daire diliminin alaný= "+sonuc);
+		System.out.println("Dairenin alanÄ±="+ alan +"\nDairenin Ã§evresi="+cevre);
+		System.out.println("Daire diliminin alanÄ±= "+sonuc);
 		
 
 	}
