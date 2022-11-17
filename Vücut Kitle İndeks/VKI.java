@@ -9,16 +9,16 @@ public class VKI {
 		int kilo;
 		double boy, indeks;
 		
-		System.out.println("Lütfen boyunuzu (metre cinsinde) giriniz:");
+		System.out.println("LÃ¼tfen boyunuzu (metre cinsinde) giriniz:");
 		boy = s.nextDouble();
 		
-		System.out.println("Lütfen kilonuzu giriniz:");
+		System.out.println("LÃ¼tfen kilonuzu giriniz:");
 		kilo = s.nextInt();
 		
 		
 		indeks = kilo / (boy*boy);
 		
-		System.out.println("Vücut Kitle İndeksiniz:"+indeks);
+		System.out.println("VÃ¼cut Kitle Ãndeksiniz:"+indeks);
 
 	}
 
