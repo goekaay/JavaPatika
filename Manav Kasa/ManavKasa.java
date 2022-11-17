@@ -13,15 +13,15 @@ public class ManavKasa {
 				muzKilo = 0.95,
 				ptlcnKilo = 5.00, tutar;
 		
-		System.out.println("Armut Kaç Kilo? :");
+		System.out.println("Armut KaÃ§ Kilo? :");
 		armut = s.nextInt();
-		System.out.println("Elma Kaç Kilo? :");
+		System.out.println("Elma KaÃ§ Kilo? :");
 		elma = s.nextInt();
-		System.out.println("Domates Kaç Kilo? :");
+		System.out.println("Domates KaÃ§ Kilo? :");
 		dmts = s.nextInt();
-		System.out.println("Muz Kaç Kilo? :");
+		System.out.println("Muz KaÃ§ Kilo? :");
 		muz = s.nextInt();
-		System.out.println("Patlýcan Kaç Kilo? :");
+		System.out.println("PatlÃ½can KaÃ§ Kilo? :");
 		ptlcn = s.nextInt();
 		
 		tutar = (armut*armutKilo) + (elma*elmaKilo) + (dmts*dmtsKilo) + (muz*muzKilo) + (ptlcn*ptlcnKilo);
