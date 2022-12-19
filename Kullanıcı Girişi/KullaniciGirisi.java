@@ -13,34 +13,34 @@ public class KullaniciGirisi {
 		username = "patika";
 		password = "java123";
 		
-		System.out.println("Kullanýcý Adýný Giriniz: ");
+		System.out.println("KullanÃ½cÃ½ AdÃ½nÃ½ Giriniz: ");
 		inpusername = s.nextLine();
-		System.out.println("Þifrenizi giriniz");
+		System.out.println("Ãžifrenizi giriniz");
 		inppassword = s.nextLine();
 		
 		if(inpusername.equals(username) && inppassword.equals(password)) {
-			System.out.println("Hoþ Geldiniz...");
+			System.out.println("HoÃ¾ Geldiniz...");
 		}
 		
 		else if(inpusername.equals(username) && !inppassword.equals(password)) {
-			System.out.println("Yanlýþ þifre girildi. Yenilemek ister misiniz?");
+			System.out.println("YanlÃ½Ã¾ Ã¾ifre girildi. Yenilemek ister misiniz?");
 			resetpassword = s.nextLine();
 			
 			if(resetpassword.equals("evet")) {
-				System.out.println("Yeni þifrenizi giriniz");
+				System.out.println("Yeni Ã¾ifrenizi giriniz");
 				newpassword = s.nextLine();
 				
 				if(newpassword.equals(password)) {
-					System.out.println("Yeni þifre eskisiyle ayný olamaz!");
+					System.out.println("Yeni Ã¾ifre eskisiyle aynÃ½ olamaz!");
 				}
 				else {
 					password = newpassword;
-					System.out.println("Þifreniz deðiþtirildi.");
+					System.out.println("Ãžifreniz deÃ°iÃ¾tirildi.");
 				}
 			}
 		}
 		else {
-			System.out.println("Yanlýþ kullanýcý adý ya da þifre!");
+			System.out.println("YanlÃ½Ã¾ kullanÃ½cÃ½ adÃ½ ya da Ã¾ifre!");
 		}
 		
 		
