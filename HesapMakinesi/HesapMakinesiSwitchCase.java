@@ -9,13 +9,13 @@ public class HesapMakinesiSwitchCase {
 		
 		Scanner s = new Scanner(System.in);
 		
-		System.out.println("İlk sayıyı giriniz: ");;
+		System.out.println("Ãlk sayÃ½yÃ½ giriniz: ");;
 		n1= s.nextInt();
-		System.out.println("İkinci sayıyı giriniz: ");
+		System.out.println("Ãkinci sayÃ½yÃ½ giriniz: ");
 		n2=s.nextInt();
 		
-		System.out.println("1-Toplama \n2-Çıkarma\n3-Çarpma\n4-bölme");
-		System.out.println("Seçiminiz nedir: ");
+		System.out.println("1-Toplama \n2-Ã‡Ã½karma\n3-Ã‡arpma\n4-bÃ¶lme");
+		System.out.println("SeÃ§iminiz nedir: ");
 		select = s.nextInt();
 		
 			switch(select) {
@@ -23,21 +23,21 @@ public class HesapMakinesiSwitchCase {
 				System.out.println("Toplam = " + (n1+n2));
 				break;
 			case 2:
-				System.out.println("Çıkarma = " + (n1-n2));
+				System.out.println("Ã‡Ã½karma = " + (n1-n2));
 				break;
 			case 3:
-				System.out.println("Çarpım = " + (n1*n2));
+				System.out.println("Ã‡arpÃ½m = " + (n1*n2));
 				break;
 			case 4:
 				if(n2 != 0) {
-					System.out.println("Bölüm = " + (n1/n2));
+					System.out.println("BÃ¶lÃ¼m = " + (n1/n2));
 				}
 				else {
-					System.out.println("Sayı 0'a bölünemez!");
+					System.out.println("SayÃ½ 0'a bÃ¶lÃ¼nemez!");
 				}
 				break;
 				default:
-					System.out.println("Yanlış Seçim Yapıldı");
+					System.out.println("YanlÃ½Ã¾ SeÃ§im YapÃ½ldÃ½");
 			}
 			
 	}
